@@ -17,10 +17,8 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[27rem]"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
+              className="block border border-n-6 rounded-l-2xl rounded-tr-[50px] roun relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[27rem]"
+              
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
